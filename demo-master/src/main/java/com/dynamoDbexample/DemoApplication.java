@@ -11,16 +11,16 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Produces;
 
-@
-public class DemoApplication extends Spring{
+@ApplicationScoped
+public class DemoApplication {
 
-	@ConfigProperty(name = "dynamoDB.accessKey")
+	@ConfigProperty(name = "dynamoDb.accessKey")
 	private String accessKey;
 
-	@ConfigProperty(name = "dynamoDB.secretKey")
+	@ConfigProperty(name = "dynamoDb.secretKey")
 	private String secretKey;
 
-	@ConfigProperty(name = "dynamoDB.region")
+	@ConfigProperty(name = "dynamoDb.region")
 	private String region;
 
 
@@ -31,5 +31,4 @@ public class DemoApplication extends Spring{
 				new AWSStaticCredentialsProvider(credentials)).withRegion(region).build();
 		return new DynamoDBMapper(client);
 	}
-
 }

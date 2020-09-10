@@ -8,7 +8,6 @@ import javax.inject.Inject;
 
 @ApplicationScoped
 public class DynamoDbOps implements DynamoDbNewInterface{
-
     @Inject
     DynamoDBMapper dynamoDBMapper;
 
@@ -33,5 +32,9 @@ public class DynamoDbOps implements DynamoDbNewInterface{
         Person person=dynamoDBMapper.load(Person.class,id);
         dynamoDBMapper.delete(person);
         return "person deleted successfully";
+    }
+
+    public DynamoDBMapper getDynamoDBMapper() {
+        return dynamoDBMapper;
     }
 }
