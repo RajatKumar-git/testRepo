@@ -1,0 +1,12 @@
+"%dev":
+  dynamoDb:
+    accessKey: AKIATC3QM7YLQSHHXFUZ
+    secretKey: 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
+    region: us-east-1
+    table:
+    ttlInDays:
+
+  quarkus:
+    package:
+      ueber-jar: true
+
