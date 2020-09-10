@@ -93,81 +93,12 @@
 		<artifactId>quarkus-jsonb</artifactId>
 	</dependency>
 	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-core</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-direct</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-jackson</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-bean</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-servlet</artifactId>
-	</dependency>
-	<dependency>
 		<groupId>io.quarkus</groupId>
 		<artifactId>quarkus-jsonp</artifactId>
 	</dependency>
 	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-log</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-attachments</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-validator</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-stream</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>io.quarkus</groupId>
-		<artifactId>quarkus-jackson</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-endpointdsl</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-ref</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-rest</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-gson</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-opentracing</artifactId>
-	</dependency>
-	<dependency>
 		<groupId>io.quarkus</groupId>
 		<artifactId>quarkus-config-yaml</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-rabbitmq</artifactId>
-		<version>1.0.1</version>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.camel.quarkus</groupId>
-		<artifactId>camel-quarkus-http</artifactId>
 	</dependency>
 	<dependency>
 		<groupId>com.amazonaws</groupId>
